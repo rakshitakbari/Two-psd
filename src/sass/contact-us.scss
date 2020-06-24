@@ -1,0 +1,89 @@
+#contact{
+    padding: 60px 0;
+    color: white;
+    background-image: url(../images/the-town-bg-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 850px;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 160px;
+    background-attachment: fixed;
+    background-position: center -110px;
+    .section-heading{
+        h4{
+            font-size: 2.6rem;
+            font-weight: normal;
+            line-height: 1.2;
+            font-weight: 600;
+            color: $white;
+            text-align: left;
+        }
+    }
+    .tm-underline {
+        border-top: 2px solid $white;
+        height: 8px;
+        width: 100%;
+        .tm-underline-inner {
+            width: 25%;
+            height: 8px;
+            background: $white;
+        }
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: $white;
+        text-align: left;
+        padding: 0;
+    }
+    fieldset {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        min-width: 0;
+        input {
+            border-radius: 0px;
+            padding-left: 15px;
+            font-size: 15px;
+            font-weight: 300;
+            color: #7a7a7a;
+            outline: none;
+            border: none;
+            box-shadow: none;
+            line-height: 50px;
+            height: 50px;
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 6px 12px;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+        textarea {
+            border-radius: 0px;
+            padding-left: 15px;
+            padding-top: 10px;
+            font-size: 15px;
+            font-weight: 300;
+            color: #232323;
+            outline: none;
+            border: none;
+            box-shadow: none;
+            height: 165px;
+            max-height: 220px;
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 25px;
+        }
+        button {
+            padding: 13px 20px;
+            letter-spacing: 0.5px;
+            background-color: $theme-color;
+            color: $white;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 0px;
+        }
+    }
+}   
